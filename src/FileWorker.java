@@ -23,7 +23,7 @@ public class FileWorker {
         String rarestWord = null;
         int countTimes = 100;
         for (StringCounter stringCounter: hashSet) {
-            System.out.println(stringCounter.word+" "+stringCounter.occuring);
+            //System.out.println(stringCounter.word+" "+stringCounter.occuring);
             if (stringCounter.occuring<countTimes) {
                 countTimes = stringCounter.occuring;
                 rarestWord = stringCounter.word;
